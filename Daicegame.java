@@ -9,5 +9,10 @@
            System.out.println("Die 2: "+num2);
            int num = num1+num2;
            System.out.println("Total value: "+num);
+	if(num>7){
+	    System.out.println("You won");
+	}else{
+	    System.out.println("You lost");
+	}
       }
   }
