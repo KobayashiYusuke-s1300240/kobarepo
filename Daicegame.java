@@ -20,9 +20,9 @@ public static void main(String[] args){
            int num = num1+num2;
            System.out.println("Total value: "+num);
 	if(num>7){
-	    System.out.println("You won");
+	    System.out.println(name+" won!");
 	}else{
-	    System.out.println("You lost");
+	    System.out.println(name+" lost");
 	}
       }
   }
