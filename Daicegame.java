@@ -1,6 +1,16 @@
-  Inport java.util.Random;
+  import java.util.Random;
+  import java.util.Scanner;
     class Daicegame{
-        public static void = new Random();
+	
+        
+public static void main(String[] args){
+    
+    System.out.println("What is your name?");
+    Scanner r = new Scanner(System.in);
+    String name = r.next();
+    System.out.println("Hello, "+ name +"!");
+	
+          Random rand= new Random();
            int num1 = rand.nextInt(6)+1;
            int num2 = rand.nextInt(6)+1;
 
